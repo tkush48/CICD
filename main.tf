@@ -99,6 +99,7 @@ resource "aws_security_group" "web_sg" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+}
 
 resource "aws_security_group" "db_sg" {
   name = "db-sg"
