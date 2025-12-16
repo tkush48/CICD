@@ -159,7 +159,7 @@ resource "aws_lb_targer_group_attachment" "web_attach" {
   port             = 80
 }
 
-resource "aws_lb_listner" "web_listner" {
+resource "aws_lb_listener" "web_listner" {
   load_balancer_arn = aws_lb.web_alb.arn
   port              = 80
   protocol          = "HTTP"
