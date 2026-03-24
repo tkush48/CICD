@@ -1,0 +1,1 @@
+ECS-Fargate, CloudFront, S3, Event Bridge,Amazon MQ, Elastic Cache, AWS Secret Manager,CloudWatch, CloudTrail, etc BitBucket, Jira
